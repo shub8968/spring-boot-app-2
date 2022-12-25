@@ -1,11 +1,9 @@
-package com.abc.app;
+package com.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
 @SpringBootApplication
-@EnableMongoRepositories
 public class AppApplication {
 
 	public static void main(String[] args) {
